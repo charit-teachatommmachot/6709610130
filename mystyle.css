@@ -1,0 +1,99 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(59, 163, 24);
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+section {
+    margin: 0 auto;
+    padding: 65px;
+    background-color: #fbe6e6d7;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    margin-top: 10px;
+    
+
+}
+
+footer {
+    text-align: center;
+    padding: 0;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* CSS สำหรับรูปโปรไฟล์ */
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+/* CSS สำหรับคลิปวิดีโอ */
+.video-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.hidden-iframe {
+    display: none;
+}
+.btn {
+    display: inline-block;
+    background: #ffffffb9;
+    color: #000000;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.btn:hover {
+    background: #555;
+}
+
+.menu-icon {
+    position: fixed; /* Fixed positioning to keep it at the corner */
+    top: 0px; /* Adjust as needed */
+    left: 0px; /* Adjust as needed */
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* Spacing between bars */
+    cursor: pointer; /* Pointer cursor on hover */
+    cursor: pointer; /* Pointer cursor on hover */
+    border: 1px solid #000000; /* Border around the menu icon */
+    border-radius: 5px; /* Rounded corners for the border */
+    padding: 10px; /* Space between the border and the bars */
+    background-color: #000; /* Black background color inside the border */
+}
+
+.bar {
+    width: 40px; /* Adjust width as needed */
+    height: 8px; /* Adjust height as needed */
+    background-color: #ffffff; /* Adjust color as needed */
+    border-radius: 3px; /* Rounded corners for bars */
+}
+
