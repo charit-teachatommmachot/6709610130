@@ -96,4 +96,25 @@ footer {
     background-color: #ffffff; /* Adjust color as needed */
     border-radius: 3px; /* Rounded corners for bars */
 }
+/* สำหรับหน้าจอมือถือ */
+@media (max-width: 600px) {
+    header {
+      text-align: left;
+    }
+  
+    nav ul {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+  
+  /* สำหรับแท็บเล็ต */
+  @media (min-width: 601px) and (max-width: 900px) {
+    nav ul {
+      display: flex;
+      justify-content: center;
+    }
+  }
+   
 
