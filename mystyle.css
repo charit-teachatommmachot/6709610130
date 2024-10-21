@@ -58,6 +58,8 @@ footer {
 .video-container {
     text-align: center;
     margin-top: 20px;
+    padding-left: 0%;
+    
 }
 
 .hidden-iframe {
@@ -99,7 +101,7 @@ footer {
 /* สำหรับหน้าจอมือถือ */
 @media (max-width: 600px) {
     header {
-      text-align: left;
+      text-align:center;
     }
   
     nav ul {
